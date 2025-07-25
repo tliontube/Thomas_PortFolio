@@ -1,8 +1,9 @@
 import React from 'react';
+import AppRoutes from './routes/routes';
 function App() {
 
   return (
-    <h1 className='text-[red] border-2 border-[black]'>hello World</h1>
+    <AppRoutes />
   )
 }
 
